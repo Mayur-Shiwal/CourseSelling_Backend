@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb+srv://course_selling:mayurshiwal@cluster0.fdmae5u.mongodb.net/");
+mongoose.connect("Your_mongoDB_connection_URL");
 
 const AdminSchema = new mongoose.Schema({
     username: String,
